@@ -5,3 +5,4 @@ Features:
 - Organize bookmarks by keywords
 - Search bookmarks by title, keywords, and notes
 - Share notes between bookmarks and pdf pages using the PDF mode
+- Quickly read articles using text colored by gradients
