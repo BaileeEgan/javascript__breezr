@@ -1,0 +1,38 @@
+{
+	"manifest_version": 2,
+
+	"name": "Breezr: An easy, breezey reader",
+	"description": "This extension makes it easy to read long online articles, write and organize notes, and consolidate them in one place.",
+	"version": "1.0",
+
+	"browser_action": {
+	
+		"default_icon": {
+		  "19": "icons/icon19.png",
+		  "38": "icons/icon38.png"
+		},
+		"default_popup": "popup.html",
+		"index_page": "index.html"
+	},
+	
+	"content_scripts": [
+		{
+			"matches": ["https://*/*", "http://*/*","file://*"],
+			"js": ["jquery.js", "breezr.js"]
+		}
+	],
+	
+	"icons": { "16": "icons/icon16.png",
+	   "48": "icons/icon48.png",
+	  "128": "icons/icon128.png" },
+	
+	"background": { 
+      "scripts": ["background.js"],
+	  "persistant": true
+    },
+	
+	"permissions": [
+		"storage",
+		"contextMenus"
+	]
+}
