@@ -1,4 +1,4 @@
-# javascript__breezr_reader
+# Breezr: Easy reader, bookmarker, and note-taker
 Breezr is a Chrome extension used to bookmark and organize academic papers and write notes.
 
 Features:
